@@ -1,0 +1,11 @@
+server:
+  port: ${SERVER_PORT:9094}
+spring:
+  datasource:
+    url: ${DB_URL}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+empresa:
+  ambiente: produccion
